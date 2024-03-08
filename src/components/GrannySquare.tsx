@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "./GrannySquare.css";
 import { colours } from "./utils/colours";
+import rice from "../rice.png";
 
 function GrannySquare() {
   const [input, setInput] = useState("");
@@ -56,6 +57,7 @@ function GrannySquare() {
       <div className="a three" style={threeStyle}></div>
       <div className="a four" style={fourStyle}></div>
       <div className="a five" style={fiveStyle}></div>
+      <img src={rice} />
 
       <input
         className="colourInput"
